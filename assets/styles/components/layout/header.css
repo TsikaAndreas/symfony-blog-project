@@ -1,0 +1,50 @@
+.header-container {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: 2px solid #007bff; /* Blue bottom border */
+	background-color: #f8f9fa; /* Light background color */
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px; /* Optional: Max width for better layout */
+	margin: 0 auto; /* Centering horizontally */
+}
+
+.header-links {
+	display: flex;
+	gap: 2rem;
+}
+
+.header-home-link {
+	display: flex;
+	align-items: center;
+	color: #007bff; /* Blue text color */
+	text-decoration: none;
+}
+
+.header-home-link:hover {
+	text-decoration: underline;
+}
+
+.header-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.header-logout-btn {
+	background-color: #007bff; /* Blue button background */
+	color: white; /* White text color */
+	border: none;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 5px; /* Rounded corners */
+}
+
+.header-logout-btn:hover {
+	background-color: #0056b3; /* Darker blue on hover */
+}

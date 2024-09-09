@@ -1,0 +1,19 @@
+.error-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* Full viewport height */
+}
+
+.error-text {
+	background-color: #f8d7da; /* Light red background */
+	color: #721c24; /* Dark red text color */
+	padding: 20px;
+	border: 1px solid #f5c6cb; /* Light red border */
+	border-radius: 5px;
+	font-size: 1.2rem;
+	text-align: center;
+	max-width: 600px; /* Optional: Max width for better readability */
+	margin: 0 auto; /* Centering the message horizontally */
+}

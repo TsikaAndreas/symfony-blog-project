@@ -1,0 +1,22 @@
+body {
+	background-color: skyblue;
+}
+
+.hint-box {
+	background-color: #f8f9fa; /* Light gray background for subtle contrast */
+	border-left: 4px solid #007bff; /* Blue left border for emphasis */
+	padding: 10px 15px;
+	margin-top: 15px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #495057; /* Dark gray text for readability */
+}
+
+.hint-box ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.hint-box li {
+	margin-bottom: 5px;
+}

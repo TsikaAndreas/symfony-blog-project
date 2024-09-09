@@ -1,0 +1,53 @@
+/* styles/components/pages/posts.css */
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 16px;
+}
+
+/* For 3 columns */
+@media (min-width: 992px) {
+	.grid-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* For 2 columns */
+@media (min-width: 768px) and (max-width: 991px) {
+	.grid-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* For 1 column */
+@media (max-width: 767px) {
+	.grid-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+.grid-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.card-body {
+	padding: 16px;
+	flex: 1;
+}
+
+.card-footer {
+	padding: 12px;
+	background-color: #f8f9fa;
+	border-top: 1px solid #ddd;
+}
